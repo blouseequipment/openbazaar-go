@@ -6,7 +6,7 @@ import (
 )
 
 var stdoutLogFormat = logging.MustStringFormatter(
-	`%{color:reset}%{color}%{time:15:04:05.000} [%{shortfunc}] [%{level}] %{message}`,
+	`[OB] %{color:reset}%{color}%{time:15:04:05.000} [%{shortfunc}] [%{level}] %{message}`,
 )
 
 var logger logging.Backend
